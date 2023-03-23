@@ -6,7 +6,7 @@ import Board from '../components/Board';
 
 const Home = () => {
 
-  const [countries, setCountries] = useState([]);
+  const [countries, setCountries] = useState();
 
 
   useEffect(() => {
@@ -18,9 +18,9 @@ const Home = () => {
 
   return (
     <main className='xl:px-24'>
-      {countries != [] ?
+      {countries ?
        <Board countries={countries} />
-      :<div className='load-spinner'></div>
+      :<div className='h-screen'></div>
   }
     </main>
   )
