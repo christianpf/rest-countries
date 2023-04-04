@@ -15,7 +15,7 @@ const Card = ({ country }) => {
     <Link to={`/country/${country.name.common}`}>
       <div
         role="button"
-        className="flex flex-col border-2 rounded-xl h-96 text-primary-400 transition ease-in-out duration-300 hover:scale-105  dark:border-gray-500 dark:text-dark-400"
+        className="flex flex-col rounded-xl h-96 shadow-lg text-primary-400 transition ease-in-out duration-300 hover:scale-105 dark:text-dark-400 dark:bg-dark-700"
       >
         <img
           src={country.flags.png}

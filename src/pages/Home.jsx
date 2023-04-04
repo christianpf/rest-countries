@@ -20,7 +20,7 @@ const Home = () => {
     <main className='xl:px-24'>
       {countries ?
        <Board countries={countries} />
-      :<div className='h-screen'></div>
+      :<div className='h-screen bg-dark-700'></div>
   }
     </main>
   )

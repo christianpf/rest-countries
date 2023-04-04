@@ -34,7 +34,7 @@ html:focus-within {
 /* Set core body defaults */
 body {
   min-height: 100vh;
-  
+
   text-rendering: optimizeSpeed;
   line-height: 1.5;
 }
@@ -88,11 +88,6 @@ body {
 
 
 
-.load-spinner {
-  @apply bg-primary-100 dark:bg-dark-100
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+.wrapper {
+  min-height: 100vh;
 }
