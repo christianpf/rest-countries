@@ -38,7 +38,7 @@ const FilterByRegion = ({label, setShowCountries}) => {
 
   return (
     <select name="region" onChange={handleOnchange} id="filter" className="p-3 w-full md:w-auto shadow-lg rounded-md dark:bg-dark-700 dark:text-dark-400 font-regular text-lg">
-      <option value="default" disabled selected hidden>{label}</option>
+      <option value="All" disabled selected hidden>{label}</option>
 
       <option value="All">All</option>
       <option value="Africa">Africa</option>
