@@ -91,3 +91,8 @@ body {
 .wrapper {
   min-height: 100vh;
 }
+
+#filter option{
+  @apply font-regular
+}
+

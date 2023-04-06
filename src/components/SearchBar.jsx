@@ -19,7 +19,7 @@ const SearchBar = ({ placeholder, countries, setShownCountries}) => {
 
   return (
     <input
-      className="p-4 w-1/3 shadow-lg rounded-md dark:bg-dark-700 dark:text-dark-400 font-regular text-lg"
+      className="p-4 w-full md:w-1/3 shadow-lg rounded-md dark:bg-dark-700 dark:text-dark-400 font-regular text-lg"
       type="text"
       placeholder={placeholder}
       onChange={handleOnChange}
